@@ -22,8 +22,47 @@
 /*******************************************/
 
 body {
-    background-color: red;
+    background-color: #141519;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+main{
+  height: 45%;
+  width: 30%;
+  background-color: #1f2630;
+  border-radius: 5%;
+  padding: 2%;
+}
+
+svg{
+  background-color: red;
+  height: 15%;
+  width: 15%;
+  position: relative;
+}
+
+path{
+   position: absolute;
+   width: 50px;
+}
+
+div{
+  display: flex;
+  width: 80%;
+  margin: 0 10%;  
+  background-color: orange;
+  justify-content: space-evenly;
+}
+
+button{
+  width: 15%;
+  height: 40px;
+  background-color: blue;
+}
+
 
 
 /******************************************

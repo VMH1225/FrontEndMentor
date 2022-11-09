@@ -1,6 +1,7 @@
 /* Box Model Hack */
 * {
   box-sizing: border-box;
+  font-family: Overpass, sans-serif;
 }
 
 /* Clear fix hack */
@@ -32,9 +33,11 @@ body {
 main{
   height: 45%;
   width: 30%;
-  background-color: #1f2630;
+  background-color: #212832;
   border-radius: 5%;
   padding: 2%;
+  display: flex;
+  flex-direction: column;
 }
 
 svg{
@@ -57,12 +60,28 @@ div{
   justify-content: space-evenly;
 }
 
-button{
+div > button{
   width: 15%;
   height: 40px;
-  background-color: blue;
+  background-color: #262f38;
+  border-radius: 50%  ;
 }
 
+#submit{
+  width: 80%;
+  margin: 0 10%; 
+  background-color: #fc7613;
+}
+
+h1{
+  font-size: 3em;
+  font-weight: 700;
+  color: #fcffff;
+}
+
+p{
+  color: #6b727c;
+}
 
 
 /******************************************

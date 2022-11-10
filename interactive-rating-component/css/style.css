@@ -38,49 +38,50 @@ main{
   padding: 2%;
   display: flex;
   flex-direction: column;
-}
-
-svg{
-  background-color: red;
-  height: 15%;
-  width: 15%;
-  position: relative;
-}
-
-path{
-   position: absolute;
-   width: 50px;
-}
-
-div{
-  display: flex;
-  width: 80%;
-  margin: 0 10%;  
-  background-color: orange;
   justify-content: space-evenly;
 }
 
-div > button{
-  width: 15%;
-  height: 40px;
+i{
   background-color: #262f38;
-  border-radius: 50%  ;
+  height: 15%;
+  width: 15%;
+ text-align: center;
+ padding: 5%;
+ border-radius: 50%;
+ color:  #fc7613; 
+}
+
+
+
+div{
+  display: flex;
+  height: 15%;
+  justify-content: space-between;
+}
+
+div > button{
+  width: 15%;  
+  background-color: #262f38;
+  border-radius: 50%;
+  border: none;
 }
 
 #submit{
-  width: 80%;
-  margin: 0 10%; 
+  border-radius: 20px;
+  height: 12%;
   background-color: #fc7613;
+  border: none;
 }
 
 h1{
-  font-size: 3em;
+  font-size: 2em;
   font-weight: 700;
   color: #fcffff;
 }
 
 p{
   color: #6b727c;
+  font-size: 1.08em;
 }
 
 

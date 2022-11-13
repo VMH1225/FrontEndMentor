@@ -39,6 +39,8 @@ main{
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
+  min-height: 350px;
+  min-width: 360px;
 }
 .thank-you{
   height: 45%;

@@ -17,5 +17,6 @@ for (const button of document.querySelectorAll('.num')) {
 
 function setValue(ev){
     choice = ev.target.innerText
+    document.querySelector('#submit').disabled = false;
 }
 

@@ -1,7 +1,7 @@
 
 let choice = 0
 document.querySelector("#submit").addEventListener('click', disappear)
-document.querySelector(".num").addEventListener('click', setValue)
+// document.querySelector(".num").addEventListener('click', setValue)
 
 function disappear(){
     document.querySelector('main').style.display = 'none'
@@ -10,7 +10,12 @@ function disappear(){
 }
 
 
-function setValue(){
-    choice = document.querySelector(".num").innerText
+for (const button of document.querySelectorAll('.num')) {
+    button.addEventListener('click', setValue);
+   
+}
+
+function setValue(ev){
+    choice = ev.target.innerText
 }
 

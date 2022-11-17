@@ -5,20 +5,29 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <title>Frontend Mentor | NFT preview card component</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap" rel="stylesheet">
   <link rel="styelsheet" href="css/reset.css">
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 <main>
-  <img src="images\image-equilibrium.jpg" alt="Equilibrium nft image">
-  Equilibrium #3429
+    <img class="mainImage" src="images\image-equilibrium.jpg" alt="Equilibrium nft 
+    image">
+    <h1> Equilibrium #3429 </h1>
+    <p> Our Equilibrium collection promotes balance and calm. </p>
 
-  Our Equilibrium collection promotes balance and calm.
+    <div>  
+      <svg width="11" height="18" xmlns="http://www.w3.org/2000/svg"><path d="M11 10.216 5.5 18 0 10.216l5.5 3.263 5.5-3.262ZM5.5 0l5.496 9.169L5.5 12.43 0 9.17 5.5 0Z" fill="#00FFF8"/></svg>
+        <span> 0.041 ETH </span>
+        <span> 3 days left </span>
+    </div>
 
-  0.041 ETH
-  3 days left
-  
-  Creation of Jules Wyvern
+    <footer> 
+      <img class="avatar" src="images\image-avatar.png" alt="Jules Wyvern image avatar">
+      <span> Creation of Jules Wyvern </span>
+    </footer>  
 </main>
 
 </body>

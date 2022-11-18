@@ -14,20 +14,18 @@ body{
 }
 
 main{
+    min-width: 300px;
+    min-height: 450px;
     display: flex;
     flex-direction: column;
-    background-color: orange;
+    background-color: #15273f;
     border-radius: 2%;
-    width: 22%;
-    height: 60%;
-    padding: 1.5%;
-}
-footer{
-    background-color: blueviolet;
+    width: 20%;
+    padding: 1.2em;
 }
 
 footer > img{
-    height: 1em;
+    height: 2em;
 }
 .mainImage{
     border-radius: 2%;
@@ -36,18 +34,40 @@ footer > img{
 }
 
 div{
-    background-color: black;
     color: hsl(178, 100%, 50%);
     margin: 0 0 1em 0;
+    padding-bottom: 1em;
+    border-bottom: solid #667b98 1px;
+}
+
+#days{
+    margin: 0 0 0 35%;
+    color: #667b98;
 }
 h1{
     font-size: 1.2em;
     margin: 1em 0;
     font-weight: 600;
+    color: white;
 }
-p{
+footer{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+footer > p{
+    margin-left: 1em;
+    color: #667b98;
+}
+h1 + p{
     margin: 0 0 1em 0;
     font-size: 1em;
     font-weight: 300;
+    color: #667b98;
 }
+
+p > span{
+    color: white;
+}
+
 

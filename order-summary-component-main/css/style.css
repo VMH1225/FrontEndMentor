@@ -21,4 +21,9 @@ main{
 
 .cost{
     display: flex;
+    flex-direction: column;
+}
+
+.order{
+    display: flex;
 }

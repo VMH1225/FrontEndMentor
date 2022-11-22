@@ -37,6 +37,11 @@ section{
 
 .order{
     display: flex;
+    flex-grow: 1;
+    height: 15%;
+    padding: 2%;
+    background-color:hsl(225, 100%, 98%);
+    margin: 0 10%;
 }
 
 main:nth-child(2){
@@ -44,17 +49,37 @@ color: blue;
 }
 
 #info{
-    margin: 5%;
+    height: 70%;
+    border-radius: 20px;
 }
 
 h1{
     font-weight: 900;
+    font-size: 1.75em;
+    margin: 0 25%;
+    background-color: yellow;
 }
 
 p{
     font-weight: 500;
+    margin: 0 15%;
+    background-color: green;
 }
 
 button, div > span:first-of-type{
     font-weight: 700;
 }
+
+.order > span{
+    background-color: blue; 
+    margin-left: auto;
+    align-self: center;
+}
+
+button:first-of-type{
+    background-color: purple;
+    margin: 0 10%;
+    width: 80%;
+    height: 10%;
+}
+

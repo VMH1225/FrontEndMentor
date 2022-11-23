@@ -20,8 +20,6 @@ main{
     width: 30%;
     background-color: red;
     border-radius: 20px;
-    display: flex;
-    flex-direction: column;
 }
 
 section{
@@ -39,10 +37,9 @@ section{
 
 .order{
     display: flex;
-    flex-grow: 1;
     padding: 3%;
     background-color:hsl(225, 100%, 98%);
-   /* margin: 0 10%;*/
+    min-height: 66px;
 }
 
 main:nth-child(2){
@@ -50,22 +47,27 @@ color: blue;
 }
 
 #info{
-    height: 70%;
+    height: 50%;
     border-radius: 20px;
     margin: 12% 8% 8% 8%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 h1{
     font-weight: 900;
     font-size: 1.75em;
-    /*margin: 0 25%;*/
+    margin: 0 15%;
     background-color: yellow;
+    min-height: 75px;
 }
 
 p{
     font-weight: 500;
-    /*margin: 0 15%;*/
+    margin: 0 10%;
     background-color: green;
+    min-height: 86px;
 }
 
 button, div > span:first-of-type{
@@ -81,7 +83,12 @@ button, div > span:first-of-type{
 button:first-of-type{
     background-color: purple;
    /* margin: 0 10%;*/
-    width: 80%;
+    width: 100%;
     height: 10%;
+    min-height: 41px;
 }
 
+
+button:last-of-type{
+    min-height: 18px;
+}

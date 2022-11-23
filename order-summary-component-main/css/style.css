@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     font-family: 'Red Hat Display', sans-serif;
+    border: none;
 }
 
 body{
@@ -33,15 +34,15 @@ section{
 .cost{
     display: flex;
     flex-direction: column;
+    margin-left: 5%;
 }
 
 .order{
     display: flex;
     flex-grow: 1;
-    height: 15%;
-    padding: 2%;
+    padding: 3%;
     background-color:hsl(225, 100%, 98%);
-    margin: 0 10%;
+   /* margin: 0 10%;*/
 }
 
 main:nth-child(2){
@@ -51,18 +52,19 @@ color: blue;
 #info{
     height: 70%;
     border-radius: 20px;
+    margin: 12% 8% 8% 8%;
 }
 
 h1{
     font-weight: 900;
     font-size: 1.75em;
-    margin: 0 25%;
+    /*margin: 0 25%;*/
     background-color: yellow;
 }
 
 p{
     font-weight: 500;
-    margin: 0 15%;
+    /*margin: 0 15%;*/
     background-color: green;
 }
 
@@ -78,7 +80,7 @@ button, div > span:first-of-type{
 
 button:first-of-type{
     background-color: purple;
-    margin: 0 10%;
+   /* margin: 0 10%;*/
     width: 80%;
     height: 10%;
 }

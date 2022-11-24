@@ -12,6 +12,7 @@ body{
     justify-content: center;
     align-items: center;
     height: 100vh;
+    min-height: 800px;
     text-align: center;
 }
 
@@ -20,6 +21,10 @@ main{
     width: 30%;
     background-color: red;
     border-radius: 20px;
+    min-height: 650px;
+    min-width: 380px;
+    display: flex;
+    flex-direction: column;
 }
 
 section{
@@ -39,7 +44,6 @@ section{
     display: flex;
     padding: 3%;
     background-color:hsl(225, 100%, 98%);
-    min-height: 66px;
 }
 
 main:nth-child(2){
@@ -60,14 +64,12 @@ h1{
     font-size: 1.75em;
     margin: 0 15%;
     background-color: yellow;
-    min-height: 75px;
 }
 
 p{
     font-weight: 500;
     margin: 0 10%;
     background-color: green;
-    min-height: 86px;
 }
 
 button, div > span:first-of-type{
@@ -82,13 +84,7 @@ button, div > span:first-of-type{
 
 button:first-of-type{
     background-color: purple;
-   /* margin: 0 10%;*/
     width: 100%;
     height: 10%;
     min-height: 41px;
-}
-
-
-button:last-of-type{
-    min-height: 18px;
 }

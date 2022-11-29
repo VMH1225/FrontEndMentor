@@ -31,9 +31,9 @@ main{
 }
 
 section{
-    height: 30%;
+    height: 33%;
     width: 100%;
-    border-radius: 20px;
+    border-radius: 20px 20px 0 0;
     background-color: blue;
     background-image: url("C:/Users/huert/OneDrive/Documents/100DevsClassFolder/FrontEndMentor/order-summary-component-main/images/illustration-hero.svg");
     background-size: 100% 100%;
@@ -54,12 +54,9 @@ section{
     border-radius: 10px;
 }
 
-main:nth-child(2){
-color: blue;
-}
 
 #info{
-    height: 50%;
+    height: 47%;
     border-radius: 20px;
     margin: 12% 8% 8% 8%;
     display: flex;

@@ -16,7 +16,7 @@ body{
 main{
         width: 80%;
         height: 50%;
-        background-color: red;
+        background-color: hsl(244, 38%, 16%);
         position: relative;
 }
 
@@ -31,7 +31,7 @@ img{
 
 section{
     display: flex;
-    background-color: yellow;
+    background-color:  hsl(244, 38%, 16%);
     position: absolute;
     width: 40%;
     top: 0;
@@ -45,11 +45,16 @@ h1{
     font-size: 2.5em;
     font-weight: 700;
     margin-bottom: 5%;
+    color: white;
 }
 
+h1 > span{
+    color: hsl(277, 64%, 61%);
+}
 p{
     font-size: 1.25em;
     font-weight: 400;
+    color: #99a3ae;
 }
 
 #bottom_data{
@@ -64,4 +69,12 @@ p{
     display: flex;
     flex-direction: column;
     font-size: 1.25em;
+}
+
+.data > span:first-child{
+color: white;
+}
+
+span + span{
+    color: #99a3ae;;
 }

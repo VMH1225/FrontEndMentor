@@ -82,3 +82,21 @@ color: white;
 span + span{
     color: #99a3ae;;
 }
+
+@media all and (orientation: portrait){
+        body{
+            background-color: red;
+            min-height: 900px;
+            min-width: 0;
+        }
+
+        main{
+            min-height: 0;
+            min-width: 0;
+            width: 400px;
+            height: 850px;
+            display: flex;
+            flex-direction: column-reverse;
+        }
+
+}

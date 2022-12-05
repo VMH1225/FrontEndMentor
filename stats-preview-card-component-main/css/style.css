@@ -22,6 +22,7 @@ main{
         min-width: 780px;
         background-color: hsl(244, 38%, 16%);
         position: relative;
+        border-radius: 2%;
 }
 
 img{
@@ -31,7 +32,10 @@ img{
     right: 0;
     top: 0;
     bottom: 0;
+    border-radius: 0 2% 2% 0;
 }
+
+
 
 section{
     display: flex;
@@ -84,9 +88,8 @@ span + span{
     color: #99a3ae;;
 }
 
-@media  (max-width: 800px){
+@media  (max-width: 540px){
         body{
-            background-color: red;
             min-height: 900px;
             min-width: 0;
         }
@@ -94,10 +97,8 @@ span + span{
             position: static;
         }
         main{
-            min-height: 0;
-            min-width: 0;
-            width: 350px;
-            height: 800px;
+            min-width: 320px;
+            min-height: 750px;
             display: flex;
             justify-content: flex-end;
             flex-direction: column-reverse;
@@ -108,7 +109,7 @@ span + span{
         }
 
         p{
-            margin: 5% 0 10% 0;
+            margin: 5% 0 12% 0;
         }
 
         h1{
@@ -120,7 +121,7 @@ span + span{
             height: 30%;
             border-radius: 3%;
         }
-        
+
         section{
             margin-bottom: 10%;
             margin-top: 0;
@@ -138,9 +139,10 @@ span + span{
             display: flex;
             flex-direction: column;
             position: static;
-            justify-content: center;
+            justify-content: space-between;
             align-items: center;
             width: 35%;
+            min-height: 200px;
         }
 
         span{

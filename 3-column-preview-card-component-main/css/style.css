@@ -1,0 +1,79 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    background-color: hsl(0, 0%, 95%);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main{
+    width:  65%;
+    height: 60%;
+    background-color: aqua;
+    display: flex;
+    
+}
+
+section{
+    padding: 5%;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 15px;
+}
+
+h1{
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: 700;
+    font-size: 2.75em;
+    text-transform: uppercase;
+    color:  hsl(0, 0%, 95%);
+}
+
+section:first-child{
+background-color:  hsl(31, 77%, 52%);
+height: 100%;
+width: 33.333%;
+}
+
+#middle{
+background-color: hsl(184, 100%, 22%);
+height: 100%;
+width: 33.333%;
+}
+
+section:last-child{
+background-color: hsl(179, 100%, 13%);
+height: 100%;
+width: 33.333%;
+}
+
+button{
+    all: unset;
+    height: 3em;
+    width: 62%;
+    background-color: hsl(0, 0%, 95%);
+    text-align: center;
+    border-radius: 25px;
+}
+
+p{
+    color: hsla(0, 0%, 100%, 0.75);
+}
+section:first-child > button{
+    color:  hsl(31, 77%, 52%);
+}
+
+#middle > button{
+    color: hsl(184, 100%, 22%);
+}
+
+section:last-child > button{
+    color:   hsl(179, 100%, 13%);
+}

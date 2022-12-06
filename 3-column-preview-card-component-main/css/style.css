@@ -15,8 +15,10 @@ body{
 }
 
 main{
-    width:  65%;
-    height: 60%;
+    width:  60%;
+    height: 52%;
+    min-width: 750px;
+    min-height: 480px;
     background-color: aqua;
     display: flex;
     
@@ -34,6 +36,7 @@ h1{
     font-size: 2.75em;
     text-transform: uppercase;
     color:  hsl(0, 0%, 95%);
+    margin: 12% 0;
 }
 
 section:first-child{
@@ -65,6 +68,7 @@ button{
 
 p{
     color: hsla(0, 0%, 100%, 0.75);
+    margin-bottom: 45%;
 }
 section:first-child > button{
     color:  hsl(31, 77%, 52%);

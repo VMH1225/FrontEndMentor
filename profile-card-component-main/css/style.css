@@ -6,12 +6,12 @@
 }
 
 body{
-    background-color: aquamarine;
+    background-color:hsl(185, 75%, 39%);
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url("../images/bg-pattern-top.svg"), url("../images/bg-pattern-bottom.svg");
+    background-image: url("../images/bg-pattern-bottom.svg"),url("../images/bg-pattern-top.svg");
 }
 
 main{

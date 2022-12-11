@@ -12,6 +12,8 @@ body{
     justify-content: center;
     align-items: center;
     background-image: url("../images/bg-pattern-bottom.svg"),url("../images/bg-pattern-top.svg");
+    background-repeat: no-repeat, no-repeat;
+    background-position: left 48vw top 52vh, right 52vw bottom 35vh;
 }
 
 main{

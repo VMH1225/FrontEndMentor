@@ -11,6 +11,8 @@ body{
     background-repeat: no-repeat;
     background-size: 100% 100%;
     min-width: 900px;
+    font-family: 'Poppins', sans-serif;
+
 }
 
 img[src *="logo"]{
@@ -22,8 +24,9 @@ main{
     display: flex;
     margin: 5% 5% 0 5%;
     width: 90%;
-    height: 600px;
-    min-width: 800px;
+    height: 65%;
+    min-width: 500px;
+    min-height: 510px;
 }
 
 .mockUp{
@@ -36,6 +39,21 @@ main{
     width: 40%;
     height: 100%;
     background-color: purple;
+    padding: 5% 0 15% 3%;
+    color: white;
+}
+h1{ 
+    font-size: 2.5em;
+    margin-bottom: 4%;
+}
+
+
+button{
+    width: 40%;
+    height: 3em;
+    font-size: 1.2em;
+    border-radius: 30px;
+    margin-top: 4%;
 }
 
 ul{
@@ -64,12 +82,14 @@ li{
     border-radius: 50% 50%;
 }
 
+
 @media (max-width: 600px){
     
     body{
         min-width: 0;
+        background-image: url("../images/bg-mobile.svg");
         background-size: 100% 50%;
-        background-color: blue;
+        
     }
     main{
         flex-direction: column;

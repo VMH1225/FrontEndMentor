@@ -10,18 +10,20 @@ body{
     background-image: url("../images/bg-desktop.svg");
     background-repeat: no-repeat;
     background-size: 100% 100%;
+    min-width: 900px;
 }
 
 img[src *="logo"]{
     margin: 5% 0 0 5%;
 }
 
-section{
+main{
     background-color: red;
     display: flex;
     margin: 5% 5% 0 5%;
     width: 90%;
     height: 600px;
+    min-width: 800px;
 }
 
 .mockUp{
@@ -51,6 +53,7 @@ ul{
 ul *{
     color: white;
 }
+
 li{
     width: 40px;
     height: 40px;
@@ -59,4 +62,28 @@ li{
     align-items: center;
     border: 1px solid;
     border-radius: 50% 50%;
+}
+
+@media (max-width: 600px){
+    
+    body{
+        min-width: 0;
+        background-size: 100% 50%;
+        background-color: blue;
+    }
+    main{
+        flex-direction: column;
+        min-width: 400px;
+        height: 800px
+    }
+    .mockUp, .info{
+        width: 100%;
+    }
+
+    ul{
+        margin-right: 30%;
+        margin-left: 30%;
+    }
+
+
 }

@@ -7,15 +7,38 @@
 body{
     background-color: aquamarine;
     height: 100vh;
+    min-height: 400px;  
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 main{
-    width: 55%;
-    height: 35%;
-    min-height: 320px;
-    min-width: 600px;
+    width: 750px;
+    height: 300px;
     background-color: red;
+}
+
+
+@media (min-width: 650px) and (max-width: 750px) {
+    body{
+        background-color: blue;
+    }
+
+    main{
+        width: 90%;
+        height: 32.33%;
+    }
+}
+
+@media (max-width: 650px){
+    body{
+        background-color: orange;
+    }
+
+    main{
+        width: 90%;
+        height: 80%;
+        margin: 0 5%;
+    }
 }

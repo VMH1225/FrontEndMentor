@@ -1,3 +1,21 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 body{
     background-color: aquamarine;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main{
+    width: 55%;
+    height: 35%;
+    min-height: 320px;
+    min-width: 600px;
+    background-color: red;
 }

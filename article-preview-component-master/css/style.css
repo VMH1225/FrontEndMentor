@@ -48,8 +48,15 @@ div{
     body{
         background-color: orange;
     }
-
+    img{
+        height: 100%;
+    }
+    section, div{
+        width: 100%;
+        height: 50%;
+    }
     main{
+        flex-direction: column;
         width: 90%;
         height: 80%;
         margin: 0 5%;

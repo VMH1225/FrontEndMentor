@@ -19,6 +19,14 @@ main{
     background-color: red;
 }
 
+img{
+    max-width: 100%;
+}
+
+div{
+    height: 100%;
+    width: 50%;
+}
 
 @media (min-width: 650px) and (max-width: 750px) {
     body{

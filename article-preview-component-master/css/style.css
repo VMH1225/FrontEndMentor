@@ -22,6 +22,9 @@ main{
     display: flex;
 }
 
+.name{
+    display: flex;
+}
 img{
     max-width: 100%;
 }

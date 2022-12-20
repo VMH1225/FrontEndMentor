@@ -21,7 +21,9 @@ main{
     background-color: red;
     display: flex;
 }
-
+.bottomCotainer{
+    display: flex;
+}
 .name{
     display: flex;
 }

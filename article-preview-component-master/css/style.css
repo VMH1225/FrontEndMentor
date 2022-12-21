@@ -104,16 +104,6 @@ section{
     padding: 5%;
 }
 
-@media (min-width: 650px) and (max-width: 750px) {
-    body{
-        background-color: blue;
-    }
-
-    main{
-        width: 90%;
-        height: 32.33%;
-    }
-}
 
 @media (max-width: 650px){
     body{

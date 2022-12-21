@@ -44,36 +44,41 @@ main{
     height: 100%;
     border-radius: 50%;
 }
+
 .container{
     width: 35%;
 }
+
 .image{
     height: 100%;
     width: 10%;
     background-color: purple;
 }
+
 .name{
     display: flex;
 }
+
 img{
     height: 100%;   
-    width: 100%;
-    
+    width: 100%; 
 }
+
 #nameDate{
     display: flex;
+    width: max-content;
     flex-direction: column;
     font-size: 1em;
+}
+
+#nameDate + .image{
+    margin-left: auto;
 }
 section{
     width: 65%;
     height: 100%;
     padding: 5%;
     background-color: blue;
-}
-div{
-    height: 100%;
-    width: 50%;
 }
 
 @media (min-width: 650px) and (max-width: 750px) {

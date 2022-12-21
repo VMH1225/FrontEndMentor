@@ -11,9 +11,10 @@ html{
 
 h1{
     font-size: 2.2rem;
+    font-weight: 700;
 }
 body{
-    background-color: aquamarine;
+    background-color:  hsl(210, 46%, 95%);
     height: 100vh;
     min-height: 400px;  
     display: flex;
@@ -23,26 +24,40 @@ body{
     ;
 }
 
+p{
+    margin: 3% 0;
+}
+h1,h2{
+    color: hsl(217, 19%, 35%);
+}
+h2{
+    font-weight: 700;
+}
+p,span{
+    color: hsl(214, 17%, 51%);
+    font-weight: 500;
+}
 main{
+    background-color: #ffffff;
     width: 750px;
     height: 280px;
-    background-color: red;
     display: flex;
+    border-radius: 10px;
 }
 
 #bottomContainer{
     display: flex;
-    background-color: red;
     height: 20%;
     width: 100%;
 }
 
-
-#bottomContainer button{
+#bottomContainer img,button{
     width: 100%;
-    background-color:hsl(210, 46%, 95%);
     height: 100%;
     border-radius: 50%;
+}
+button{
+    background-color:hsl(210, 46%, 95%);
     border: none;
     background-image: url("../images/icon-share.svg");
     background-repeat: no-repeat;
@@ -52,12 +67,15 @@ main{
 
 .container{
     width: 35%;
+    border-radius: 10px 0 0 10px;
+}
+.container img{
+    border-radius: 10px 0 0 10px;
 }
 
 .image{
     height: 100%;
     width: 10%;
-    background-color: purple;
 }
 
 .name{
@@ -74,6 +92,7 @@ img{
     width: max-content;
     flex-direction: column;
     font-size: 1em;
+    margin-left: 4%;
 }
 
 #nameDate + .image{
@@ -83,7 +102,6 @@ section{
     width: 65%;
     height: 100%;
     padding: 5%;
-    background-color: blue;
 }
 
 @media (min-width: 650px) and (max-width: 750px) {

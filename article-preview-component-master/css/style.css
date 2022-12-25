@@ -108,6 +108,7 @@ section{
 @media (max-width: 660px){
     body{
         background-color: orange;
+        min-height: 550px;
     }
     img{
         height: 100%;
@@ -127,6 +128,7 @@ section{
     }
     main{
         flex-direction: column;
+        min-height: 530px;
         width: 90%;
         height: 80%;
         margin: 0 5%;

@@ -64,7 +64,9 @@ button{
     background-position: 50%;
     background-size: 70%;
 }
-
+button:hover{
+    cursor: pointer;
+}
 .container{
     width: 35%;
     border-radius: 10px 0 0 10px;

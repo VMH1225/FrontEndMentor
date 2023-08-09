@@ -25,7 +25,8 @@ main > div{
 }
 
 #result{
-    background-color: purple;
+    background: linear-gradient(#7857ff,#2e2be9);
+
     width: 50%;
 }
 
@@ -49,7 +50,7 @@ p{
 .circle{
     height: 180px;
     width: 180px;
-    background-color: pink;
+    background: linear-gradient(#2e2be9, #7857ff);
     border-radius: 50%;
     margin: 4%;
 }

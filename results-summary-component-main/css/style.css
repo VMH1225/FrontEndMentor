@@ -2,6 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: 'Hanken Grotesk', sans-serif;
 }
 body{
     height: 100vh;
@@ -26,7 +27,6 @@ main > div{
 
 #result{
     background: linear-gradient(#7857ff,#2e2be9);
-
     width: 50%;
 }
 

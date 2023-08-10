@@ -16,8 +16,8 @@ main{
     background-color: teal;
 }
 main > div{
-    height: 90%;
-    margin: 5%;
+    height: 100%;
+    padding: 5%;
     display: flex;
     flex-direction: column;
     justify-content: center;

@@ -45,12 +45,13 @@ h2{
 
 p{
     background-color: green;
+    text-align: center;
 }
 
 .circle{
-    height: 180px;
-    width: 180px;
+    height: 200px;
+    width: 200px;
     background: linear-gradient(#2e2be9, #7857ff);
     border-radius: 50%;
-    margin: 4%;
+    margin: 10%;
 }

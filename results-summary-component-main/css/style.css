@@ -14,11 +14,13 @@ main{
     display:flex;
     height: 460px;
     width: 600px;
+    border-radius: 30px;
     background-color: teal;
 }
 main > div{
     height: 100%;
     padding: 5%;
+    border-radius: 30px;
     display: flex;
     flex-direction: column;
     justify-content: center;

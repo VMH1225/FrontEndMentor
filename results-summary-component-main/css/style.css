@@ -41,9 +41,32 @@ main > div{
 #summary{
     width:50%;
     background-color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    padding: 5% 4%;
 }
 
+#summary > h1{
+    align-self: flex-start;
+}
 
+#sections{
+    height: 60%;
+    width: 100%;
+    background-color: blue;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+button{
+    width: 100%;
+}
+
+span{
+    height: 20%;
+    background-color: red;
+}
 h2{
     margin: 5%;
 }

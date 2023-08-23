@@ -51,9 +51,8 @@ main > div{
 }
 
 #sections{
-    height: 60%;
+    height: 70%;
     width: 100%;
-    background-color: blue;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -63,8 +62,22 @@ button{
     width: 100%;
 }
 
+#reaction{
+    background-color: hsl(0, 100%, 95%);
+}
+#memory{
+    background-color: hsl(39, 100%, 95%);
+}
+#verbal{
+    background-color: hsl(166, 100%, 95%);
+}
+#visual{
+    background-color: hsl(221, 100%, 95%)
+}
+
 span{
     height: 20%;
+    border-radius: 5px;
     background-color: red;
 }
 h2{

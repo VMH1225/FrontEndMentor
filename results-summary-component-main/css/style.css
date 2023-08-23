@@ -9,13 +9,14 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: hsl(221, 100%, 96%);
 }
 main{
     display:flex;
     height: 460px;
     width: 600px;
     border-radius: 30px;
-    background-color: teal;
+    background-color: #FFFFFF;
 }
 main > div{
     height: 100%;
@@ -39,7 +40,7 @@ main > div{
 }
 #summary{
     width:50%;
-    background-color: indianred;
+    background-color: #FFFFFF;
 }
 
 

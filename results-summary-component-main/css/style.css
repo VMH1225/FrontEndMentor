@@ -60,6 +60,12 @@ main > div{
 
 button{
     width: 100%;
+    background-color: hsl(224, 30%, 27%);
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    color: #FFFFFF;
+
 }
 
 #reaction{

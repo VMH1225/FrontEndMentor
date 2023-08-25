@@ -48,6 +48,7 @@ main > div{
 
 #summary > h1{
     align-self: flex-start;
+    color: hsl(224, 30%, 27%);
 }
 
 #sections{

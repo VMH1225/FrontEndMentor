@@ -116,3 +116,19 @@ p{
     font-weight: 800;
     color: #FFFFFF;
 }
+
+.cobalt-blue{
+    color: hsl(234, 85%, 45%);
+}
+
+.green-teal{
+    color: hsl(166, 100%, 37%);
+}
+
+.orangey-yellow{
+    color: hsl(39, 100%, 56%);
+}
+
+.light-red{
+    color: hsl(0, 100%, 67%);
+}

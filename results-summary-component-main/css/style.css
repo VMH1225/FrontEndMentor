@@ -71,6 +71,7 @@ button{
 
 #reaction{
     background-color: hsl(0, 100%, 95%);
+    justify-self: flex-start;
 }
 #memory{
     background-color: hsl(39, 100%, 95%);
@@ -87,7 +88,6 @@ span{
     border-radius: 5px;
     background-color: red;
     display: flex;
-    justify-content: space-around;
     align-items: center;
 }
 h2{
@@ -135,3 +135,13 @@ p{
 .light-red{
     color: hsl(0, 100%, 67%);
 }
+
+.leftMargin{
+    margin-left: 5%;
+}
+
+.flexEnd{
+   margin-left: auto;
+   margin-right: 5%;
+}
+

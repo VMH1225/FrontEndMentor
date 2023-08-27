@@ -85,10 +85,9 @@ button:hover{
     background-color: hsl(221, 100%, 95%)
 }
 
-span{
+.category{
     height: 20%;
     border-radius: 5px;
-    background-color: red;
     display: flex;
     align-items: center;
 }

@@ -145,3 +145,15 @@ p{
    margin-right: 5%;
 }
 
+
+@media (max-width: 600px){
+    body{
+        background-color: teal;
+    }
+
+    main{
+        flex-direction: column;
+        height: 920px;
+        width:  380px; 
+    }
+}

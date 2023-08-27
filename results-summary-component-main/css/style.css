@@ -148,12 +148,13 @@ p{
 @media (max-width: 600px){
     body{
         background-color: teal;
+        min-width: 260px;
     }
 
     main{
         flex-direction: column;
         height: 920px;
-        width:  380px; 
+        width:  360px; 
     }
 
    main > div{

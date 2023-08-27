@@ -65,9 +65,12 @@ button{
     border: none;
     border-radius: 20px;
     color: #FFFFFF;
-
 }
 
+button:hover{
+    background: linear-gradient(#7857ff,#2e2be9);
+    cursor: pointer;
+}
 #reaction{
     background-color: hsl(0, 100%, 95%);
     justify-self: flex-start;
@@ -147,7 +150,6 @@ p{
 
 @media (max-width: 600px){
     body{
-        background-color: teal;
         min-width: 260px;
     }
 

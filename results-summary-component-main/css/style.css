@@ -20,6 +20,7 @@ main{
 }
 main > div{
     height: 100%;
+    width: 50%;
     padding: 5%;
     border-radius: 30px;
     display: flex;
@@ -30,7 +31,6 @@ main > div{
 
 #result{
     background: linear-gradient(#7857ff,#2e2be9);
-    width: 50%;
 }
 .lavender{
     color: hsl(241, 100%, 89%);
@@ -39,7 +39,6 @@ main > div{
     color: #FFFFFF;
 }
 #summary{
-    width:50%;
     background-color: #FFFFFF;
     display: flex;
     justify-content: space-between;
@@ -156,4 +155,9 @@ p{
         height: 920px;
         width:  380px; 
     }
+
+   main > div{
+        width: 100%;
+    }
+
 }

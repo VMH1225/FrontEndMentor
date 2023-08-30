@@ -8,7 +8,7 @@ body{
 }
 
 
-div{
+.intro{
     background-color: aqua;
     width: 400px;
     height: 250px;

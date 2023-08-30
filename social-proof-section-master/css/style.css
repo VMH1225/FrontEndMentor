@@ -22,3 +22,19 @@ h1{
 p{
     line-height: 1.5em;
 }
+
+.starReviews{
+    background-color: orange;
+    width: 400px;
+    height: 230px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+span{
+    width: 90%;
+    height: 25%;    
+    background-color: purple;
+    border-radius: 5px;
+}

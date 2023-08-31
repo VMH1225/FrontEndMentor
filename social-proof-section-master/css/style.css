@@ -37,7 +37,7 @@ p{
     display: flex;
     justify-content: space-between;
 }
-div > span{
+.bars{
     width: 80%;
     height: 25%;    
     background-color: purple;
@@ -59,4 +59,10 @@ span > span{
 }
 .end{
     align-self: flex-end;
+}
+
+.userReview{
+    height: 220px;
+    width: 350px;
+    background-color: pink;
 }

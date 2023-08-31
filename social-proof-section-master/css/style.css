@@ -66,3 +66,23 @@ span > span{
     width: 350px;
     background-color: pink;
 }
+
+.user{
+    width: 45%;
+    height: 25%;
+    background-color: aquamarine;
+    display: flex;
+    align-items: center;
+}
+
+.circle{
+    height: 55px;
+    width: 55px;
+    border-radius: 50%;
+    background-color: red;
+}
+
+.name{
+    display: flex;
+    flex-direction: column;
+}

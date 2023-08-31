@@ -25,7 +25,7 @@ p{
 
 .starReviews{
     background-color: orange;
-    width: 480px;
+    width: 520px;
     height: 230px;
     display: flex;
     flex-direction: column;
@@ -38,7 +38,7 @@ p{
     justify-content: space-between;
 }
 div > span{
-    width: 90%;
+    width: 80%;
     height: 25%;    
     background-color: purple;
     border-radius: 5px;
@@ -53,4 +53,10 @@ span > span{
     font-weight: 700;
     margin-left: 5%;
 }
-    
+
+.center{
+    align-self: center;
+}
+.end{
+    align-self: flex-end;
+}

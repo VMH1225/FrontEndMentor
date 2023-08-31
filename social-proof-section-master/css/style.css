@@ -25,18 +25,32 @@ p{
 
 .starReviews{
     background-color: orange;
-    width: 400px;
+    width: 480px;
     height: 230px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
 }
-
-span{
+.stars{
+    margin-left: 5%;
+    flex-basis: 30%;
+    display: flex;
+    justify-content: space-between;
+}
+div > span{
     width: 90%;
     height: 25%;    
     background-color: purple;
     border-radius: 5px;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
 }
 
+span > span{
+    font-weight: 700;
+    margin-left: 5%;
+}
     

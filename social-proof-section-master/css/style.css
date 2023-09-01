@@ -62,7 +62,8 @@ span > span{
 }
 
 .userReview{
-    width: 350px;
+    width: 31.5%;
+    height: 85%;
     background-color: pink;
     display: flex;
     flex-direction: column;
@@ -71,8 +72,7 @@ span > span{
 }
 
 .user{
-    width: 53%;
-    height: 25%;
+    width: 60%;
     background-color: aquamarine;
     display: flex;
     align-items: center;
@@ -95,4 +95,13 @@ span > span{
     background-color: orange;
     margin: 0;
     margin-top: 6%;
+}
+
+#reviews{
+    background-color: fuchsia;
+    width: 1250px;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
 }

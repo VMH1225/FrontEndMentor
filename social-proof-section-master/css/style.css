@@ -65,6 +65,7 @@ span > span{
     width: 31.5%;
     height: 85%;
     background-color: pink;
+    border-radius: 7px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -104,4 +105,8 @@ span > span{
     display: flex;
     justify-content: space-between;
     flex-direction: row;
+}
+
+#annImage{
+    background-image: url("images/image-ann.jpg");
 }

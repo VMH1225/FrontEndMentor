@@ -62,17 +62,22 @@ span > span{
 }
 
 .userReview{
-    height: 220px;
+    height: 240px;
     width: 350px;
     background-color: pink;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2%;
 }
 
 .user{
-    width: 45%;
+    width: 53%;
     height: 25%;
     background-color: aquamarine;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 
 .circle{
@@ -85,4 +90,10 @@ span > span{
 .name{
     display: flex;
     flex-direction: column;
+}
+
+.userReview p{
+    background-color: orange;
+    margin: 0;
+    margin-top: 6%;
 }

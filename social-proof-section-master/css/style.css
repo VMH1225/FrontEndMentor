@@ -62,13 +62,12 @@ span > span{
 }
 
 .userReview{
-    height: 240px;
     width: 350px;
     background-color: pink;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 2%;
+    padding: 4%;
 }
 
 .user{

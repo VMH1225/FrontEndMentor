@@ -64,7 +64,7 @@ span > span{
 .userReview{
     width: 31.5%;
     height: 85%;
-    background-color: pink;
+    background-color:hsl(300, 43%, 22%);
     border-radius: 7px;
     display: flex;
     flex-direction: column;
@@ -99,7 +99,7 @@ span > span{
 }
 
 #reviews{
-    background-color: fuchsia;
+    background-color: hsl(303, 10%, 53%);
     width: 1250px;
     height: 300px;
     display: flex;

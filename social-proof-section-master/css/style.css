@@ -20,6 +20,7 @@ body{
 
 main{
     height: 70%;
+    width: 65%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -28,18 +29,21 @@ main{
 #top{
     display: flex;
     justify-content: space-between;
+    width: 100%;
+    height: 42%;
 }
 
 .intro{
-    background-color: aqua;
-    width: 400px;
-    height: 250px;
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
 }
 i{
     color: orange;
 }
 h1{
-    font-size: 45px;
+    font-size: 55px;
     font-weight: 700;
 }
 
@@ -48,9 +52,7 @@ p{
 }
 
 .starReviews{
-    background-color: orange;
-    width: 520px;
-    height: 230px;
+    width: 45%;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -123,9 +125,8 @@ span > span{
 }
 
 #reviews{
-    background-color: hsl(303, 10%, 53%);
-    width: 1250px;
-    height: 300px;
+    width: 100%;
+    height: 45%;
     display: flex;
     justify-content: space-between;
     flex-direction: row;

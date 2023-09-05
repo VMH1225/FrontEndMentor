@@ -59,7 +59,7 @@ p{
 .bars{
     width: 80%;
     height: 25%;    
-    background-color: purple;
+    background-color: hsl(300, 24%, 96%);
     border-radius: 5px;
     font-size: 18px;
     display: flex;

@@ -129,3 +129,7 @@ span > span{
 #annImage{
     background-image: url("images/image-ann.jpg");
 }
+
+span + span{
+    color: hsl(333, 80%, 67%);
+}

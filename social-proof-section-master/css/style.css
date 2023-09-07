@@ -120,9 +120,11 @@ img{
 
 .userReview p{
     background-color: orange;
+    color: white;
     margin: 0;
     margin-top: 6%;
 }
+
 
 #reviews{
     width: 100%;

@@ -141,3 +141,9 @@ img{
 .name > span + span{
     color: hsl(333, 80%, 67%);
 }
+
+@media (max-width:550px){
+    main{
+        background-color: red;
+    }
+}

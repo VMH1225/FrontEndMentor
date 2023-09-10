@@ -146,4 +146,8 @@ img{
     main{
         background-color: red;
     }
+
+    #top{
+        flex-direction: column;
+    }
 }

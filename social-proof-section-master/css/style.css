@@ -145,3 +145,18 @@ img{
     color: hsl(333, 80%, 67%);
 }
 
+
+@media (max-width: 550px){
+    body{
+        min-width: 400px;
+        min-height: 1600px;   
+    }
+    main{
+        background-color: blue;
+        height: 90%;
+        width: 90%;
+        min-height: 1200px;
+        min-width: 350px;
+        
+    }
+}

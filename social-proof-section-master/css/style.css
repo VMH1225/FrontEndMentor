@@ -149,6 +149,7 @@ img{
     }
     main{
         background-color: red;
+        height: fit-content;
         min-width: 400px;
     }
 

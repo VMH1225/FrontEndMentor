@@ -27,9 +27,11 @@ main{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    flex-wrap: wrap;  
+    flex-wrap: wrap; 
+    background-color: red; 
 }
 #top{
+    background-color: aqua;
     display: flex;
     justify-content: space-between;
     width: 100%;
@@ -132,6 +134,7 @@ img{
     display: flex;
     justify-content: space-between;
     flex-direction: row;
+    background-color: orange;
 }
 
 #annImage{

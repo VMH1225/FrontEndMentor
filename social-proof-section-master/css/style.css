@@ -144,8 +144,8 @@ img{
 
 @media (max-width:550px){
     body{
-        min-width: none;
-        min-height: none;
+        min-width: 0;
+        min-height: 0;
     }
     main{
         background-color: red;

@@ -150,4 +150,7 @@ img{
     #top{
         flex-direction: column;
     }
+    #reviews{
+        flex-direction: column;
+    }
 }

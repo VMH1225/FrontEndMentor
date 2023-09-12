@@ -146,6 +146,7 @@ img{
 }
 
 
+
 @media (max-width: 550px){
     body{
         min-width: 400px;
@@ -156,7 +157,14 @@ img{
         height: 90%;
         width: 90%;
         min-height: 1200px;
-        min-width: 350px;
-        
+        min-width: 350px;      
+    }
+
+    #reviews{
+        height: 50%;
+    }
+
+    #top{
+        height: 45%;
     }
 }

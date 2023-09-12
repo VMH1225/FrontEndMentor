@@ -149,7 +149,7 @@ img{
 
 @media (max-width: 550px){
     body{
-        min-width: 400px;
+        min-width: 350px;
         min-height: 1600px;   
     }
     main{
@@ -157,14 +157,20 @@ img{
         height: 90%;
         width: 90%;
         min-height: 1200px;
-        min-width: 350px;      
+        min-width: 300px;      
     }
 
     #reviews{
         height: 50%;
+        flex-direction: column;
     }
-
     #top{
         height: 45%;
+    }
+
+    div{
+        height: 31%;
+        width: 100%;
+        background-color: red;
     }
 }

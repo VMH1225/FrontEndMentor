@@ -168,9 +168,12 @@ img{
         height: 45%;
     }
 
-    div{
+    
+    .userReview{
         height: 31%;
         width: 100%;
         background-color: red;
     }
+
+
 }

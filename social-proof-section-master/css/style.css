@@ -121,6 +121,9 @@ img{
     flex-direction: column;
 }
 
+.name :first-child{
+    color: white;  
+}
 .userReview p{
     color: white;
     margin: 0;
@@ -172,7 +175,6 @@ img{
     .userReview{
         height: 31%;
         width: 100%;
-
     }
 
 

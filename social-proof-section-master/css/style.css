@@ -169,6 +169,24 @@ img{
     }
     #top{
         height: 45%;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+
+    .intro{
+        width: 100%;
+        height: 45%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between; 
+    }
+    
+    .starReviews{
+        height:50%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
     }
 
     

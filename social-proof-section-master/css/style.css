@@ -196,6 +196,22 @@ img{
         justify-content: center;
     }
 
+    span > span{
+        font-weight: 700;
+        margin-left: 0;
+        margin-top: 2%;
+    }
+
+    
+
+    .stars{
+        margin: 0;
+        width: 45%;
+        max-width: 170px;
+        display: flex;
+        justify-content: space-between;
+    }
+
     .center{
         align-self: auto;
     }

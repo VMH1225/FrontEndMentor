@@ -192,6 +192,8 @@ img{
     .bars{
         margin: 0;
         width: 100%;
+        flex-direction: column;
+        justify-content: center;
     }
 
     .center{

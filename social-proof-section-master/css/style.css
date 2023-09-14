@@ -152,23 +152,23 @@ img{
 
 @media (max-width: 550px){
     body{
-        min-width: 350px;
+        min-width: 320px;
         min-height: 1400px;   
     }
     main{
         background-color: blue;
         height: 90%;
         width: 90%;
-        min-height: 1200px;
-        min-width: 300px;      
+        min-height: 0;
+        min-width: 0;      
     }
 
     #reviews{
-        height: 50%;
+        height: 55%;
         flex-direction: column;
     }
     #top{
-        height: 45%;
+        height: 42%;
         flex-direction: column;
         justify-content: space-between;
     }

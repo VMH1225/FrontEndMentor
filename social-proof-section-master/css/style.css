@@ -153,7 +153,7 @@ img{
 @media (max-width: 550px){
     body{
         min-width: 350px;
-        min-height: 1600px;   
+        min-height: 1400px;   
     }
     main{
         background-color: blue;

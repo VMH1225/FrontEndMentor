@@ -180,6 +180,13 @@ img{
         flex-direction: column;
         justify-content: space-between; 
     }
+
+    .intro *{
+        text-align: center;
+    }
+    h1{
+        font-size: 45px;
+    }
     
     .starReviews{
         height:50%;

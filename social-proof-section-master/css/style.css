@@ -139,10 +139,6 @@ img{
     flex-direction: row;
 }
 
-#annImage{
-    background-image: url("images/image-ann.jpg");
-}
-
 .name > span + span{
     color: hsl(333, 80%, 67%);
 }

@@ -68,8 +68,10 @@ button:hover{
     cursor: pointer;
 }
 .container{
-    width: 35%;
+    width: 35%; 
     border-radius: 10px 0 0 10px;
+    background-image: url("../images/drawersdesktop.jpg");
+    background-size: 100% 100%;
 }
 .container img{
     border-radius: 10px 0 0 10px;
@@ -84,10 +86,6 @@ button:hover{
     display: flex;
 }
 
-img{
-    height: 100%;   
-    width: 100%; 
-}
 
 #nameDate{
     display: flex;
@@ -118,6 +116,7 @@ section{
         width: 100%;
         border-radius: 10px 10px 0 0;
         height: 40%;
+        background-image: url("../images/drawersmobile.jpg");
     }
 
     .container img{

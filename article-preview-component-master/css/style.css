@@ -138,10 +138,14 @@ section{
     section, div{
         width: 100%;
     }
+
+    p{
+        margin: 0;
+    }
     main{
         flex-direction: column;
         min-height: 600px;
-        min-width: 440px;
+        min-width: 432px;
         width: 90%;
         height: 70%;
         margin: 0 5%;

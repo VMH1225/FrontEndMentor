@@ -55,7 +55,7 @@ main{
     height: 100%;
     border-radius: 50%;
 }
-button{
+.share{
     background-color:hsl(210, 46%, 95%);
     border: none;
     background-image: url("../images/icon-share.svg");

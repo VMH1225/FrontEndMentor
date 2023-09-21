@@ -106,6 +106,13 @@ section{
     justify-content: space-between;
 }
 
+.socials{
+    width: 260px;
+    height: 60px;
+    border-radius: 10px;
+    background-color: hsl(217, 19%, 35%);
+}
+
 
 @media (max-width: 655px){
     p, .bottomContainer{
@@ -132,15 +139,12 @@ section{
         flex-direction: column;
         justify-content: space-between;
     }
-    div{
-        height: 40%;
-    }
 
     .container img{
         border-radius: 10px 10px 0 0;
     }
 
-    section, div{
+    section{
         width: 100%;
     }
 

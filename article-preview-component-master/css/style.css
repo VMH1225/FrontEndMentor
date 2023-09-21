@@ -50,7 +50,7 @@ main{
     width: 100%;
 }
 
-#bottomContainer img,button{
+#bottomContainer img, .share{
     width: 100%;
     height: 100%;
     border-radius: 50%;
@@ -111,6 +111,23 @@ section{
     height: 60px;
     border-radius: 10px;
     background-color: hsl(217, 19%, 35%);
+    display: flex;
+}
+
+.socials > button{
+    height: 100;
+    width: 25%;
+}
+.twitter{
+    background-image: url("../images/icon-twitter.svg");
+}
+
+.facebook{
+    background-image: url("../images/icon-facebook.svg");
+}
+
+.pinterest{
+    background-image: url("../images/icon-pinterest.svg");
 }
 
 

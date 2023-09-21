@@ -117,6 +117,9 @@ section{
 .socials > button{
     height: 100;
     width: 25%;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-color: inherit;
 }
 .twitter{
     background-image: url("../images/icon-twitter.svg");

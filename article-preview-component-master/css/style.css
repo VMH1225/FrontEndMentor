@@ -113,12 +113,21 @@ section{
     padding: 15px 30px;
     border-radius: 10px;
     background-color: hsl(217, 19%, 35%);
-    display: flex;
     justify-content: space-between;
     align-items: center;
     position: absolute;
     left: 60%;
     top: 47%;
+}
+
+
+.socials::after{
+    content: '';
+    border: 10px solid transparent;
+    border-top-color:  hsl(217, 19%, 35%);
+    position: absolute;
+    top: 100%;
+    left: 50%;
 }
 
 .socials > span{

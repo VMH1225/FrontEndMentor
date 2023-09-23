@@ -104,6 +104,7 @@ section{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    position: relative;
 }
 
 .socials{
@@ -115,6 +116,9 @@ section{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: absolute;
+    left: 60%;
+    top: 47%;
 }
 
 .socials > span{

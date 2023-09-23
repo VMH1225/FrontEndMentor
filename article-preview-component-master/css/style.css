@@ -112,6 +112,7 @@ section{
     height: 60px;
     padding: 15px 30px;
     border-radius: 10px;
+    display: flex;
     background-color: hsl(217, 19%, 35%);
     justify-content: space-between;
     align-items: center;
@@ -119,8 +120,6 @@ section{
     left: 60%;
     top: 47%;
 }
-
-
 .socials::after{
     content: '';
     border: 10px solid transparent;

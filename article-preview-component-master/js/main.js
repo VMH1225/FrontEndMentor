@@ -1,7 +1,15 @@
 
 document.querySelector('.share').addEventListener('click', displaySocials)
+var num = 2
 
 function displaySocials(){
-    total = 0
+    if(num % 2 == 0){
     document.querySelector('.socials').style.display = 'flex'
+    num++
+    }
+    else{
+        document.querySelector('.socials').style.display = 'none'
+        num++
+    }
 }
+

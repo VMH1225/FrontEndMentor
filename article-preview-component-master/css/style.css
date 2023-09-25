@@ -204,22 +204,20 @@ button{
         justify-content: space-between;
         position: relative;
     }
-
+    /* 
+    ideas for disappaering and reappearing of social section for mobile design
+    1) make the social section take up 75% of the width and then change the color of the bottom container that contains the share element.
+       This will make it seem like it is 1 whole element. The problem is you would need to also change the style of the bottom container on every click. 
+        since you can't have the bottom container looking like it is a part of the socials section when your first load the site
+    2) put a new social button inside the social section for mobile design. This might be easier since the styles for the share button are in a class
+       you can just make another button with the same class. Try this next. */
     .socials::after{
         content: none;
     }
     .socials{
-        width: 100%;
         height: 15%;
         left: 0%;
-        top: 85%;
-        padding: 15px 30px;
-        border-radius: 10px;
-        display: none;
-        background-color: hsl(217, 19%, 35%);
-        justify-content: space-between;
-        align-items: center;
-        position: absolute;
-        
+        right: 0%;
+        top: 85%;   
     }
 }

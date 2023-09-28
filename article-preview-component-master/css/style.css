@@ -151,6 +151,7 @@ section{
     background-repeat: no-repeat;
     background-position: 50%;
     background-size: 50%;
+    margin-left: auto;
     display: none;
 }
 .twitter{
@@ -231,6 +232,13 @@ button{
         left: 0%;
         width: 100%;
         top: 85%;   
+        justify-content: flex-start;
+        border-radius: 0 0 10px 10px;
+    }
+    .socials > button{
+        height: 30px;
+        width: 30px;
+        margin-left: 20px;
     }
     #mobileShare{
         display: inline-block;

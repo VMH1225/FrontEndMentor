@@ -13,3 +13,5 @@ function displaySocials(){
     }
 }
 
+document.querySelector('#mobileShare').addEventListener('click', displaySocials)
+

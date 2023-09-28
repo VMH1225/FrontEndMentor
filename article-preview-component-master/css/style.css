@@ -49,7 +49,9 @@ main{
     height: 20%;
     width: 100%;
 }
-
+.share{
+    margin-left: auto;
+}
 #bottomContainer img, .share{
     height: 44px;
     width: 44px;

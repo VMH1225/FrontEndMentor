@@ -51,8 +51,8 @@ main{
 }
 
 #bottomContainer img, .share{
-    width: 100%;
-    height: 100%;
+    height: 44px;
+    width: 44px;
     border-radius: 50%;
 }
 .share{
@@ -164,9 +164,7 @@ button{
         min-height: 550px;
         min-width: 470px; 
     }
-    img{
-        height: 100%;
-    }
+    
     .container{
         width: 100%;
         border-radius: 10px 10px 0 0;
@@ -210,14 +208,14 @@ button{
        This will make it seem like it is 1 whole element. The problem is you would need to also change the style of the bottom container on every click. 
         since you can't have the bottom container looking like it is a part of the socials section when your first load the site
     2) put a new social button inside the social section for mobile design. This might be easier since the styles for the share button are in a class
-       you can just make another button with the same class. Try this next. */
+       you can just make another button with the same class. Try this next.*/
     .socials::after{
         content: none;
     }
     .socials{
         height: 15%;
         left: 0%;
-        right: 0%;
+
         top: 85%;   
     }
 }

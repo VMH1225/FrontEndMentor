@@ -229,7 +229,7 @@ button{
     .socials{
         height: 15%;
         left: 0%;
-
+        width: 100%;
         top: 85%;   
     }
     #mobileShare{

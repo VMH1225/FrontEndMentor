@@ -29,6 +29,10 @@ main{
     width: 100%;
     height: 28%;
 }
+p{
+    color: hsl(229, 6%, 66%);
+    font-size: 15px;
+}
 
 #bottom{
     background-color: yellowgreen;

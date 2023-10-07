@@ -135,6 +135,12 @@ svg{
     #top{
         height: 20%;
     }
+    h1{
+        font-size: 1.5rem;
+    }
+    #top > p{
+        width: 90%;
+    }
     #bottom{
         flex-direction: column;
         height: 75%;

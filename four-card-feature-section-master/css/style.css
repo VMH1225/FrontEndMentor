@@ -16,8 +16,8 @@ body{
 
 main{
     background-color: aquamarine;
-    height: 88%;
-    width: 70%;
+    height: 80%;
+    width: 65%;
     min-width: 780px;
     display: flex;
     flex-direction: column;
@@ -28,7 +28,7 @@ main{
 #top{
     background-color:red;
     width: 100%;
-    height: 28%;
+    height: 24%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -38,17 +38,20 @@ main{
 h1{
     font-weight: 200;
     font-size: 38px;
+    margin-bottom: 0.75rem;
 }
 h1 + h1{
     font-weight: 600;
+    margin-bottom: 1.25rem;
 }
 #top > p{
-    width: 60%;
+    width: 50%;
     text-align: center;
 }
 
 p{
     color: hsl(229, 6%, 66%);
+    line-height: 1.5rem;
 }
 
 #top:first-child{
@@ -58,13 +61,14 @@ p{
 #bottom{
     background-color: yellowgreen;
     width: 100%;
-    height: 64%;
+    height: 68%;
     display: flex;
     justify-content: space-between;
 }
 h2{
     font-weight: 600;
-    font-size: 22.5px;
+    font-size: 1.5rem;
+    margin-bottom: 0.75rem;
 }
 .bottomSectionSide{
     width: 32%;

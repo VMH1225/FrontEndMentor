@@ -90,6 +90,7 @@ h2{
     padding: 25px;
     position: relative;
     background-color: #ffffff;
+    border-radius: 5px;
 }
 
 svg{

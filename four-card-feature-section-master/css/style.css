@@ -39,6 +39,7 @@ h1{
     font-weight: 200;
     font-size: 38px;
     margin-bottom: 0.75rem;
+    color: hsl(234, 12%, 34%);
 }
 h1 + h1{
     font-weight: 600;
@@ -91,6 +92,7 @@ h2{
     position: relative;
     background-color: #ffffff;
     border-radius: 5px;
+    color: hsl(234, 12%, 34%);
 }
 
 svg{

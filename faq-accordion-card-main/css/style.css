@@ -5,4 +5,17 @@
 body{
     height: 100vh;
     background: linear-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 840px;
+    min-height: 540px;
+}
+
+main{
+    background-color: white;
+    width: 65%;
+    height: 65%;
+    min-width: 800px;
+    min-height: 500px;
 }

@@ -4,5 +4,5 @@
 
 body{
     height: 100vh;
-    background-color: aqua;
+    background: linear-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%));
 }

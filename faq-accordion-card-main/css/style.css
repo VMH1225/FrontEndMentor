@@ -10,6 +10,7 @@ body{
     align-items: center;
     min-width: 840px;
     min-height: 540px;
+    position: relative;
 }
 
 main{
@@ -18,4 +19,20 @@ main{
     height: 65%;
     min-width: 800px;
     min-height: 500px;
+
+}
+
+@media (max-width: 500px){
+    body{
+        min-width: 400px;
+        min-height: 800px;
+    }
+    main{
+        width: 90%;
+        height: 70%;
+        min-width: 370px;
+        min-height: 600px;
+        position: absolute;
+        bottom: 10%;
+    }
 }

@@ -50,4 +50,14 @@ main{
         position: absolute;
         bottom: 10%;
     }
+
+    .woman{
+        top: -20%;
+        left: -10%;
+    }
+    .box{
+        top: 0;
+        left: -15%;
+    }
+    
 }

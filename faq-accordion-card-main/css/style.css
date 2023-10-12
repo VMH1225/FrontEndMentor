@@ -20,7 +20,10 @@ main{
     min-width: 800px;
     min-height: 500px;
     border-radius: 20px;
-
+    background-image: url('../images/bg-pattern-desktop.svg');
+    background-repeat: no-repeat;
+    /* background-position: -325% 79%; */
+    background-position: top -285px right 650px;
 }
 
 @media (max-width: 500px){

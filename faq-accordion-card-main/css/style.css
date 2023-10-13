@@ -46,6 +46,12 @@ main{
     border-radius: 20px;
 }
 
+h1{
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 38px;
+    font-weight: 700;
+}
+
 @media (max-width: 500px){
     body{
         min-width: 400px;

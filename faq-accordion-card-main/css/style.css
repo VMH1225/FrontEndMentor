@@ -24,6 +24,7 @@ main{
     background-repeat: no-repeat;
     background-position: top -285px right 650px;
     position: relative;
+
 }
 .woman{
     position: absolute;
@@ -38,6 +39,9 @@ main{
 }
 
 .questions{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     width: 50%;
     height: 100%;
     background-color: red;
@@ -48,7 +52,7 @@ main{
 }
 #accordion{
     width: 100%;
-    height: 70%;
+    height: 85%;
     background-color: aqua;
 
 }
@@ -75,6 +79,7 @@ h1{
     .questions{
         width: 100%;
         height: 70%;
+        padding: 5%;
         bottom: 0;
     }
     .woman{

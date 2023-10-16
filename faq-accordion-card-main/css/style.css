@@ -61,7 +61,10 @@ h1{
     background-color: aqua;
 
 }
-
+span{
+    display: inline-block;
+     transform: rotate(90deg);
+}
 
 @media (max-width: 500px){
     body{

@@ -72,6 +72,9 @@ span{
     justify-content: space-between;
 }
 
+#accordion label + input[type="radio"]{
+    display: none;
+}
 @media (max-width: 500px){
     body{
         min-width: 400px;

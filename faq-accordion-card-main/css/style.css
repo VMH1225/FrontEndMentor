@@ -67,8 +67,10 @@ span{
 }
 li{
     height: 18%;
-    border-bottom: 1px solid hsl(240, 5%, 91%)
-    ;
+    border-bottom: 1px solid hsl(240, 5%, 91%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 #accordion li label{
     display: flex;

@@ -63,6 +63,10 @@ span{
     transform: rotate(90deg);
     color: hsl(14, 88%, 65%);
 }
+
+span:hover{
+    cursor: pointer;
+}
 li{
     height: 18%;
     border-bottom: 1px solid hsl(240, 5%, 91%);

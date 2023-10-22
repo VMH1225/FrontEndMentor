@@ -67,6 +67,7 @@ span{
 span:hover{
     cursor: pointer;
 }
+
 li{
     height: 18%;
     border-bottom: 1px solid hsl(240, 5%, 91%);
@@ -101,7 +102,7 @@ li{
         width: 85%;
         height: 75%;
         min-width: 370px;
-        min-height: 600px;
+        min-height: 700px;
         position: absolute;
         bottom: 10%;
     }

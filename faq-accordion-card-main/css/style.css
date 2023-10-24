@@ -9,7 +9,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    min-width: 840px;
+    min-width: 1000px;
     min-height: 540px;
     position: relative;
 }
@@ -18,7 +18,7 @@ main{
     background-color: white;
     width: 65%;
     height: 65%;
-    min-width: 800px;
+    min-width: 950px;
     min-height: 500px;
     border-radius: 20px;
     background-image: url('../images/bg-pattern-desktop.svg');
